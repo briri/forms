@@ -39,7 +39,7 @@ Download the latest [release](https://github.com/substance/forms/releases) and u
 </script>
 <body>
   <!-- The editable attribute marks editable areas -->
-  <div id="about" editable>
+  <div id="about" editable data-type="area">
     <p>Tell us <strong>something</strong> about <em>you</em></p>
   </div>
   <button onclick="_onSubmit()">Submit</button>
